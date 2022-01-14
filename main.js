@@ -26,7 +26,6 @@ class Field {
       for (let i = 0; i < height; i++) {
             field[i] = Array(width).fill(fieldCharacter); 
         }
-        console.log(field);
 
         //randomize holes
         for (let i = 0; i < height; i++) {
@@ -36,7 +35,7 @@ class Field {
                 }
             }
         }
-        console.log(field);
+
         //randomize hat
         let hatY = 0;
         let hatX = 0;
@@ -95,7 +94,7 @@ class Field {
   }
 }
 
-randomField = Field.generateField(100, 100, 25);
+randomField = Field.generateField(10, 10, 25);
 
 const myField = new Field(randomField);
 
