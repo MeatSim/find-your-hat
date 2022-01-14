@@ -23,7 +23,7 @@ class Field {
         let field = new Array(height);
         
         //generate rows
-        for (let i in field) {
+      for (let i = 0; i < height; i++) {
             field[i] = Array(width).fill(fieldCharacter); 
         }
         console.log(field);
