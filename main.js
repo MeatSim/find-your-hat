@@ -40,8 +40,8 @@ class Field {
         let hatY = 0;
         let hatX = 0;
         while (hatY == 0 && hatX == 0) {
-            hatY = (Math.floor(Math.random * height));
-            hatX = (Math.floor(Math.random * width));
+            hatY = Math.floor(Math.random * height);
+            hatX = Math.floor(Math.random * width);
             field[hatY][hatX] = hat;
         }
 
@@ -94,10 +94,8 @@ class Field {
   }
 }
 
-const myField = new Field([
-  ['*', '░', 'O'],
-  ['░', 'O', '░'],
-  ['░', '^', '░'],
-]);
+randomField = Field.generateField(100, 100, 25);
+
+const myField = new Field(randomField);
 
 myField.playGame();
