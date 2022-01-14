@@ -47,6 +47,8 @@ class Field {
 
         //generate pathCharacter
         field[0][0] = pathCharacter;
+
+        return field;
   }
     
   playGame() {
