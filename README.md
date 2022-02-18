@@ -3,7 +3,8 @@ Coded in JavaScript for Codecademy Challenge Project: Find Your Hat.
 ## Object of the game
 "The scenario is that the player has lost their hat in a field full of holes, and they must navigate back to it without falling down one of the holes or stepping outside of the field."
 ## How to play
-The player starts in the upper left corner and navigates left, right, up, or down with the l, r, u, and d keys. The player's path is marked by *. The hat is marked by ^. Holes are marked by O.
+The player starts in the upper left corner and navigates left, right, up, or down by pressing the l, r, u, or d keys and then ENTER. The player's path is marked by *. The hat is marked by ^. Holes are marked by O.
+
 The game will end when the player finds the hat, falls in a hole, or falls off the field. You can also quit with CTRL+C.
 ## Setup
 1. Clone the repository to your computer.
