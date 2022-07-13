@@ -1,3 +1,5 @@
+<img alt="demo" src="https://raw.githubusercontent.com/MeatSim/portfolio-website/main/images/findyourhat.gif">
+
 # Find Your Hat interactive terminal game
 Coded in JavaScript for Codecademy Challenge Project: Find Your Hat.
 ## Object of the game
